@@ -15,5 +15,14 @@ console.log(1 + 2);
 const userData = {
     name: 'Nick',
     age: null,
+    skills: {
+        js: 99,
+    },
+    say: function () {
+        console.log('Hello');
+    },
 };
-console.log(userData.skills?.js);
+
+userData.say();
+userData.hay();
+console.log(userData?.skills?.js);
