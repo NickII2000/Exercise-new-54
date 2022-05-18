@@ -24,5 +24,5 @@ const userData = {
 };
 
 userData.say();
-userData.hay();
+userData.hey?.();
 console.log(userData?.skills?.js);
